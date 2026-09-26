@@ -1,0 +1,15 @@
+{
+  "name": "Website Yapımı 101 — Kahve Durağı (Node.js 22 + Astro 7.3.5)",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22-bookworm",
+  "forwardPorts": [4321],
+  "portsAttributes": { "4321": { "label": "Kahve Durağı (önizleme)", "onAutoForward": "openBrowser" } },
+  "postCreateCommand": "cd kahve-duragi && npm ci",
+  "customizations": {
+    "vscode": {
+      "extensions": ["astro-build.astro-vscode"],
+      "settings": { "workbench.startupEditor": "readme" }
+    },
+    "codespaces": { "openFiles": ["README.md"] }
+  },
+  "hostRequirements": { "cpus": 2, "memory": "4gb" }
+}
