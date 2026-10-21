@@ -1,4 +1,4 @@
-# Website Yapımı 101 — Lab deposu
+# Kendi Web Siteni Yap, Yayına Al — Lab deposu
 
 [Forenly Academy](https://academy.forenly.ai) · **Website Yapımı 101** kursunun uygulama dosyaları.
 Kurs boyunca kurgusal bir Eskişehir kafesinin sitesi, **Kahve Durağı**, Astro ile yapılır, derlenir ve
